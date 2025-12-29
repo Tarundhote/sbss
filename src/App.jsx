@@ -8,7 +8,7 @@ import Contact from "./Components/pages/Contact";
 import aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import "./app.css"
+import "./App.css"
 const App = () => {
   useEffect(() => {
     aos.init();
