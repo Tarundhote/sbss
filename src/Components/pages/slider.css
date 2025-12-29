@@ -1,0 +1,57 @@
+/* Base Styles */
+.slick-slider {
+  max-width: 100%;
+  margin: auto;
+}
+
+.slick-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Dots Navigation */
+.slick-dots {
+  bottom: 10px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #007bff;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ff4500;
+}
+
+/* Navigation Arrows */
+.slick-prev, .slick-next {
+  z-index: 10;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 24px;
+  color: #007bff;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .slick-slide img {
+    border-radius: 5px;
+  }
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .slick-dots li button:before {
+    font-size: 10px;
+  }
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 16px;
+  }
+}
